@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+
 .nav-bar {
-    background: lightblue;
+    display: flex;
+    background: rgb(255, 255, 255);
     height: 10vh;
-    color: white;
-    text-decoration: none;
+    position: fixed;
+    top: 90vh;
+    width: 100vw;
+    justify-content: space-around;
+    font-family: 'Londrina Solid', cursive;
+    a:link {
+      text-decoration: none;
+    }
+    .menu {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 20px;
+      color: indigo;
+    }
   }
