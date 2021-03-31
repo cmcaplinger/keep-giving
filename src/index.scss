@@ -1,9 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+#SubmitButton {
+  border: 3px solid black;
+  background-color: transparent; 
+}
+#SubmitButton:hover {
+  background-color: black;
+  color: white;
+}
 
 .home-logo {
   h1 {
-  font-family: 'Londrina Solid', cursive;
+  font-family: 'Fascinate Inline', cursive;
   margin: 5vh;
   color: white;
   }
@@ -11,6 +21,15 @@
     text-decoration: none;
   }
 }
+
+h2 {
+  font-family: 'Fascinate', cursive;
+  }
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -28,7 +47,7 @@ body {
 
 .bg {
   animation:slide 60s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, rgb(189, 65, 194) 50%, rgb(209, 14, 56) 50%);
+  background-image: linear-gradient(-80deg, rgb(169, 115, 173) 50%, rgb(238, 208, 39) 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -40,16 +59,16 @@ body {
 
 .bg2 {
   animation-direction:alternate-reverse;
-  animation-duration:55s;
+  animation-duration:45s;
 }
 
 .bg3 {
-  animation-duration:50s;
+  animation-duration:30s;
 }
 
 .content {
   background-color:rgba(255,255,255,.8);
-  border-radius:.25em;
+  border-radius:4em;
   box-shadow:0 0 .25em rgba(0,0,0,.25);
   box-sizing:border-box;
   left:50%;

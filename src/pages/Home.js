@@ -1,12 +1,21 @@
 import React from 'react';
 
 export default function Home() {
+	
 	return (
 		<div className="HomePage">
 			<div class="content">
-				<p>Keep Giving is a donation management system that empowers users to contribute on a regular basis to mutual aid, non-profits, individuals, and important social causes. Select who you want to give to, how often, how much - and chart your impact in different giving areas.</p>
+				<div class="register">
+				<h2>register</h2>
+				<form style={{ display: 'flex', flexDirection: 'row' }} class="register">
+					Email:
+					<input type="text"/>
+					Password:
+					<input type="text"/>
+					<input type="submit" id="SubmitButton"/>
+				</form>
+				</div>
 			</div>
-
 		</div>
 	);
 }
