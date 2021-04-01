@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.ProfilePage {
+  background-color:  rgb(238, 208, 39);
+}
+
 #SubmitButton {
   border: 3px solid black;
   background-color: transparent; 
@@ -46,7 +50,7 @@ body {
 }
 
 .bg {
-  animation:slide 60s ease-in-out infinite alternate;
+  animation:slide 45s ease-in-out infinite alternate;
   background-image: linear-gradient(-80deg, rgb(169, 115, 173) 50%, rgb(238, 208, 39) 50%);
   bottom:0;
   left:-50%;
@@ -64,6 +68,7 @@ body {
 
 .bg3 {
   animation-duration:30s;
+  animation-direction:alternate-reverse;
 }
 
 .content {
