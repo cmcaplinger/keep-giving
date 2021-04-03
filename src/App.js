@@ -11,14 +11,14 @@ import './index.scss';
 export default function App() {
 	return (
     <div className="App">
+		<div class="bg"></div>
+		<div class="bg bg2"></div>
+		<div class="bg bg3"></div>
 		<div className="home-logo">
 			<Link to={'/'}>		
 				<h1>keep <br/> giving</h1>
 			</Link>
 		</div>
-		<div class="bg"></div>
-		<div class="bg bg2"></div>
-		<div class="bg bg3"></div>
       <header className="App-header">
       </header>
 			<Switch>

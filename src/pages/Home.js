@@ -7,13 +7,13 @@ export default function Home() {
 			<div class="content">
 				<div class="register">
 				<h2>register</h2>
-				<form style={{ display: 'flex', flexDirection: 'row' }} class="register">
-					Email:
-					<input type="text"/>
-					Password:
-					<input type="text"/>
+				<form style={{ display: 'flex', flexDirection: 'row', justifyContent: 'left' }} class="register">
+					<label> Email: </label> &nbsp;
+					<input type="text"/> &nbsp; &nbsp; &nbsp;
+					<label> Password: </label> &nbsp;
+					<input type="text"/> &nbsp; &nbsp; &nbsp;
 					<input type="submit" id="SubmitButton"/>
-				</form>
+				</form>		
 				</div>
 			</div>
 		</div>

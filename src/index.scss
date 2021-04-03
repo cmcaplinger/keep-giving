@@ -9,17 +9,24 @@
 #SubmitButton {
   border: 3px solid black;
   background-color: transparent; 
+  border-radius:.5em;
+  font-family: 'Roboto', sans-serif;
 }
 #SubmitButton:hover {
   background-color: black;
   color: white;
 }
 
+.register {
+  padding: 5px;
+  justify-content: left;
+}
+
 .home-logo {
   h1 {
   font-family: 'Fascinate Inline', cursive;
   margin: 5vh;
-  color: white;
+  color: whitesmoke;
   }
   a:link {
     text-decoration: none;
@@ -49,28 +56,6 @@ body {
   margin:0;
 }
 
-.bg {
-  animation:slide 45s ease-in-out infinite alternate;
-  background-image: linear-gradient(-80deg, rgb(169, 115, 173) 50%, rgb(238, 208, 39) 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
-
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:45s;
-}
-
-.bg3 {
-  animation-duration:30s;
-  animation-direction:alternate-reverse;
-}
-
 .content {
   background-color:rgba(255,255,255,.8);
   border-radius:4em;
@@ -82,8 +67,54 @@ body {
   text-align:center;
   top:50%;
   transform:translate(-50%, -50%);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+h1 {
+  font-family:monospace;
+}
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 6s ease-in-out infinite alternate;
+  background-image: linear-gradient(60deg, rgb(236, 202, 138) 50%, rgb(202, 70, 30) 50%);
+  bottom:0;
+  left: -50%;
+  opacity:.5;
+  position:fixed;
+  right: -50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:8s;
+}
+
+.bg3 {
+  animation-duration:10s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
 h1 {
   font-family:monospace;
 }
