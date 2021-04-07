@@ -5,7 +5,6 @@ import NavBar from './components/NavBar/NavBar.js';
 import About from './pages/About';
 import Profile from './pages/Profile';
 import Browse from './pages/Browse';
-import Impact from './pages/Impact';
 import './index.scss';
 
 export default function App() {
@@ -26,7 +25,6 @@ export default function App() {
         		<Route exact path="/about" component={About} />
 				<Route exact path="/profile" component={Profile} />
 				<Route exact path="/browse" component={Browse} />
-				<Route exact path="/impact" component={Impact} />
 			</Switch>
 			<NavBar />
 		</div>

@@ -3,18 +3,12 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Browse from '../pages/Browse';
 import Profile from '../pages/Profile';
-import Impact from '../pages/Impact';
 
 const routes = [
 	{
 		Component: About,
 		key: 'about',
 		path: '/about'
-	},
-	{
-		Component: Impact,
-		key: 'impact',
-		path: '/impact'
 	},
 	{
 		Component: Profile,
