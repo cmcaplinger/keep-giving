@@ -82,7 +82,7 @@ body {
 }
 
 .bg {
-  animation:slide 6s ease-in-out infinite alternate;
+  animation:slide 12s ease-in-out infinite alternate;
   background-image: linear-gradient(60deg, rgb(236, 202, 138) 50%, rgb(202, 70, 30) 50%);
   bottom:0;
   left: -50%;
@@ -95,16 +95,16 @@ body {
 
 .bg2 {
   animation-direction:alternate-reverse;
-  animation-duration:8s;
+  animation-duration:16s;
 }
 
 .bg3 {
-  animation-duration:10s;
+  animation-duration:20s;
 }
 
 .content {
   background-color:rgba(255,255,255,.8);
-  border-radius:.25em;
+  border-radius:15em;
   box-shadow:0 0 .25em rgba(0,0,0,.25);
   box-sizing:border-box;
   left:50%;
