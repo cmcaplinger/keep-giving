@@ -2,50 +2,70 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Browse() {
-	
 	return (
 		<div className="BrowsePage">
 			<div class='row'>
-    			<div class='column'>
-					<div class="content">
-						<a href="https://ibb.co/H7X7QbG"><img src="https://i.ibb.co/nrRrSYQ/starter.png" alt="starter" id="icon" border="0"/></a>
-						<h2>about</h2>
-						<p>Keep Giving is a donation management system that empowers users to contribute on a regular basis to mutual aid, non-profits, individuals and important social causes.</p> 
-						<p>Select who you want to give to, how often, how much - and chart your impact in different giving areas. One-off donations are okay, but long-term investment is a better way to support our communities and local justice-oriented groups.</p>
-						<Link to="/about"><button class="button button--anthe"><span>learn more</span></button></Link>
-						</div>
-				</div>
 				<div class='column'>
-					<div class="content">
-						<a href="https://ibb.co/hXVPXc6"><img src="https://i.ibb.co/gvJ5vd2/professional.png" alt="professional" id="icon" border="0"/></a>
-						<h2>partners</h2>
-						<p>We work exclusively with organizations led by people of color, LGBTQIA+, differently-abled people, women, and other folks at the intersection of historically oppressed identities.</p> 
-						<p>Organizations must not be a branch of a national company or have an operating budget of more than $500,000. This tool aims to free up time for fundraising staff and create reliable streams of income.</p>
-						<Link to="/browse"><button class="button button--anthe"><span>browse partners</span></button></Link>
-						</div>
-				</div>
-				<div class='column'>
-					<div class="content">
-						<a href="https://ibb.co/z5Fv7F7"><img src="https://i.ibb.co/H2C8xCx/K-G-L-3.png" alt="K-G-L-3" id="icon" border="0"/></a>
-						<h2>register</h2>
-						<p>Join the growing community and commit to your local causes today. We've raised over $100,000 to date. How much will you keep giving?</p>
-						<form style={{ display: 'flex', flexDirection: 'column'}} class="register"> <br/>
-						<div>
-          					<label htmlFor="name">Full Name: </label>
-          					<input type="text" name="name"/>
-       				 	</div> &nbsp;
-						<div>
-          					<label htmlFor="email">Your Email: </label>
-          					<input type="text" name="email"/>
-       				 	</div> &nbsp;
-					<div>
-						<label htmlFor="password">Password: </label>
-						<input type="text" name="password"/>
+					<div class="content" id="org-card">
+					<a href="https://ibb.co/7pcY4yJ"><img src="https://i.ibb.co/kDnH1cg/ARC.png" id="org-img" alt="ARC" border="0"/></a>
+						<h2>Angel Rose Artist Collective</h2>
+						<h4>Arts & Culture | Washington, DC </h4>
+							<p>A multilingual Two-Spirit Native American Transgender, Intersex, Asexual, Queer+ led Collective of artists, healers, educators, and advocates, uplifting Two-Spirit Nation and BIPOC Communities through art & land justice.</p>
+							<p>Budget: $30,750</p> 
+						<button class="button button--anthe"><span>add</span></button> 
 					</div>
-					<br/>
-						</form>
-						<a href="https://cmc-keep-giving-backend.herokuapp.com/"><button class="button button--anthe"><span>sign up</span></button></a>
+				</div>
+				<div class='column'>
+					<div class="content" id="org-card">
+						<a href="https://ibb.co/dmpp8dG"><img src="https://i.ibb.co/Y0ddHzp/AOB.png" id="org-img" alt="AOB" border="0"/></a>
+						<h2>An Open Book</h2>
+						<h4>Education | Washington, DC </h4>
+							<p>An Open Book's programs offer students in qualifying schools the opportunity to connect with authors, illustrators and their books. Students receive their own signed copy of the featured book to add to their home libraries.</p>
+							<p>Budget: $325,600</p> 
+						<button class="button button--anthe"><span>add</span></button> 
 						</div>
+					</div>
+				<div class='column'>
+					<div class="content" id="org-card">
+						<a href="https://ibb.co/9vsspyZ"><img src="https://i.ibb.co/xsJJ2zF/1-c-FE-f6-Yb-Rdc-I5-ZD0e-FLttw.jpg" id="org-img" alt="1-c-FE-f6-Yb-Rdc-I5-ZD0e-FLttw" border="0"/></a>
+						<h2>No Justice No Pride</h2>
+						<h4>LGBTQIA+ | Washington, DC </h4>
+							<p>We exist to end the LGBT movement’s complicity with systems of oppression that further marginalize queer and trans individuals. Together we recognize that there can be no pride for some of us without liberation for all of us.</p>
+							<p>Budget: $510,800</p> 
+						<button class="button button--anthe"><span>add</span></button>
+					</div>		
+				</div>
+			</div>
+			<div class='row'>
+				<div class='column'>
+					<div class="content" id="org-card">
+						<a href="https://ibb.co/FVgff4S"><img src="https://i.ibb.co/Dp566fx/culturaldc-barbershopinstall-37-1.jpg" alt="culturaldc-barbershopinstall-37-1" id="org-img" border="0"/></a>
+						<h2>CulturalDC</h2>
+						<h4>Arts & Culture | Washington, DC</h4>
+							<p>CulturalDC supports innovative artists across all disciplines and makes their work accessible to diverse audiences. We provide unconventional space for relevant and challenging work that is essential to nurturing vibrant urban communities.</p>
+							<p>Budget: $750,350</p> 
+						<button class="button button--anthe"><span>add</span></button>
+						</div>
+					</div>
+					<div class='column'>
+					<div class="content" id="org-card">
+					<a href="https://ibb.co/p2Fr8Gq"><img src="https://i.ibb.co/NxBnPQR/MAM.png" id="org-img" alt="MAM" border="0"/></a>
+						<h2>Mutual Aid Movement</h2>
+						<h4>Community | Washington, DC </h4>
+							<p>MAM DC is composed of grassroots volunteers and front-line service providers working to support neighbors in need. We are a respectful, solution oriented, and hopeful group that emphasizes the collective over the individual.</p>
+							<p>Budget: $150,400</p> 
+						<button class="button button--anthe"><span>add</span></button> 
+					</div>
+				</div>
+				<div class='column'>
+					<div class="content" id="org-card">
+					<a href="https://ibb.co/d4RxhTL"><img src="https://i.ibb.co/xqNd4kf/SHUTDOWN.png" id="org-img" alt="SHUTDOWN" border="0"/></a>
+						<h2>ShutDownDC</h2>
+						<h4>Political Action | Washington, DC </h4>
+							<p>ShutDownDC uses strategic direct action to advance justice and hold officials accountable. We’re a growing movement and we’re getting ready to show up for each other this week, to preserve the pillars of democracy and fight for a better future.</p>
+							<p>Budget: $225,800</p> 
+						<button class="button button--anthe"><span>add</span></button> 
+					</div>
 				</div>
 			</div>
 		</div>

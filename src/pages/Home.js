@@ -20,13 +20,13 @@ export default function Home() {
 						<a href="https://ibb.co/hXVPXc6"><img src="https://i.ibb.co/gvJ5vd2/professional.png" alt="professional" id="icon" border="0"/></a>
 						<h2>partners</h2>
 						<p>We work exclusively with organizations led by people of color, LGBTQIA+, differently-abled people, women, and other folks at the intersection of historically oppressed identities.</p> 
-						<p>Organizations must not be a branch of a national company or have an operating budget of more than $500,000. This tool aims to free up time for fundraising staff and create reliable streams of income.</p>
+						<p>Organizations must not be a branch of a national company or have an operating budget of more than $1,000,000. This tool aims to free up time for fundraising staff and create reliable streams of income.</p>
 						<Link to="/browse"><button class="button button--anthe"><span>browse partners</span></button></Link>
 						</div>
 				</div>
 				<div class='column'>
 					<div class="content">
-						<a href="https://ibb.co/z5Fv7F7"><img src="https://i.ibb.co/H2C8xCx/K-G-L-3.png" alt="K-G-L-3" id="icon" border="0"/></a>
+					<a href="https://ibb.co/1zf7cWr"><img src="https://i.ibb.co/tLMQRrq/Asset-4.png" alt="Asset-4" id="icon" border="0"/></a>
 						<h2>register</h2>
 						<p>Join the growing community and commit to your local causes today. We've raised over $100,000 to date. How much will you keep giving?</p>
 						<form style={{ display: 'flex', flexDirection: 'column'}} class="register"> <br/>
