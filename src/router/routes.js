@@ -2,7 +2,7 @@ import React from 'react';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Browse from '../pages/Browse';
-import Profile from '../pages/Profile';
+import Success from '../pages/Success';
 
 const routes = [
 	{
@@ -11,9 +11,9 @@ const routes = [
 		path: '/about'
 	},
 	{
-		Component: Profile,
-		key: 'profile',
-		path: '/profile'
+		Component: Success,
+		key: 'success',
+		path: '/success'
 	},
 	{
 		Component: Browse,

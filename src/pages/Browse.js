@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function Browse() {
 	return (
@@ -12,7 +12,7 @@ export default function Browse() {
 						<h4>Arts & Culture | Washington, DC </h4>
 							<p>A multilingual Two-Spirit Native American Transgender, Intersex, Asexual, Queer+ led Collective of artists, healers, educators, and advocates, uplifting Two-Spirit Nation and BIPOC Communities through art & land justice.</p>
 							<p>Budget: $30,750</p> 
-						<button class="button button--anthe"><span>add</span></button> 
+							<a href="https://cmc-keep-giving-backend.herokuapp.com/"><button class="button button--anthe"><span>add</span></button></a> 
 					</div>
 				</div>
 				<div class='column'>

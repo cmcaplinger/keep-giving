@@ -5,7 +5,7 @@ import { Route, Switch, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import NavBar from './components/NavBar/NavBar.js';
 import About from './pages/About';
-import Profile from './pages/Profile';
+import Success from './pages/Success';
 import Browse from './pages/Browse';
 import './index.scss';
 
@@ -68,7 +68,7 @@ export default function App() {
 			<Switch>
 				<Route exact path="/" component={Home} />
         		<Route exact path="/about" component={About} />
-				<Route exact path="/profile" component={Profile} />
+				<Route exact path="/success" component={Success} />
 				<Route exact path="/browse" component={Browse} />
 			</Switch>
 			<NavBar />
