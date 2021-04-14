@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
+import axios from "axios";
+
 import Home from './pages/Home';
 import NavBar from './components/NavBar/NavBar.js';
 import About from './pages/About';
@@ -8,6 +10,49 @@ import Browse from './pages/Browse';
 import './index.scss';
 
 export default function App() {
+	const [state, setState] = useState({
+		email: "",
+		password: "",
+		isLoggedIn: false,
+	  });
+	
+	  const [isLoggedIn, setIsLoggedIn] = useState(false);
+	
+	  useEffect(() => {
+		if (localStorage.token) {
+		  setIsLoggedIn(true);
+		} else {
+		  setIsLoggedIn(false);
+		}
+	  }, [isLoggedIn]);
+	
+	  const handleLogOut = () => {
+		setState({
+		  email: "",
+		  password: "",
+		  isLoggedIn: false,
+		});
+		localStorage.clear();
+	  };
+	
+	  const handleInput = (event) => {
+		setState({ ...state, [event.target.name]: event.target.value });
+	  };
+	
+	  const handleSignUp = async (event) => {
+		event.preventDefault();
+		try {
+		  const response = await axios.post("http://localhost:3001/", {
+			email: state.email,
+			password: state.password,
+		  });
+		  console.log(response);
+		  localStorage.setItem('token', response.data.token);
+		  setIsLoggedIn(true);
+		} catch (err) {
+		  console.log(err);
+		}
+	  };
 	return (
     <div className="App">
 		<div class="bg"></div>
